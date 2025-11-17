@@ -2,28 +2,16 @@
 
 A full-stack career guidance application with AI-powered recommendations, user authentication, and persistent data storage.
 
-## Features
 
-- ✅ **User Authentication**: JWT-based authentication with secure login/signup
-- ✅ **Database Integration**: SQLite database with Prisma ORM for persistent data
-- ✅ **AI-Powered Recommendations**: Google Gemini AI integration for personalized career guidance
-- ✅ **RAG Chatbot**: Advanced chatbot with Retrieval-Augmented Generation for accurate career information
-- ✅ **Assessment System**: Multi-test assessment flow (Aptitude, Values, Personal)
-- ✅ **Chat Interface**: Context-aware AI chatbot for career guidance discussions
-- ✅ **Multi-language Support**: English, Hindi, Telugu, Tamil, Bengali, Gujarati
-- ✅ **Assessment History**: Track and view past assessments
-- ✅ **Modern UI**: React + TypeScript + Tailwind CSS with Radix UI components
-
-## Tech Stack
+## Tech Stack Requirement
 
 ### Backend
 
 - **Node.js** + **Express** + **TypeScript**
 - **Prisma** ORM with **SQLite** database
-- **JWT** authentication
-- **Google Gemini AI** for recommendations and chat
+- **Google Gemini API** for recommendations and chat
 - **Python RAG Service** with LangChain + ChromaDB for advanced chatbot
-- **HuggingFace Embeddings** for semantic search
+- **HuggingFace Embeddings** for vector db
 
 ### Frontend
 
@@ -55,7 +43,7 @@ cd backend
 npm install
 ```
 
-5. Edit `.env` and add your configuration:
+5. Add `.env` and add your configuration:
 
 ```env
 PORT=3000
@@ -166,104 +154,7 @@ combine_Final/
     └── vite.config.ts
 ```
 
-## API Endpoints
 
-### Authentication
-
-- `POST /api/auth/setup` - User registration
-- `POST /api/auth/login` - User login
-- `POST /api/auth/logout` - User logout
-- `POST /api/auth/token/refresh` - Refresh access token
-
-### Home
-
-- `GET /api/home` - Get home page data
-
-### Assessment
-
-- `POST /api/assessment/start` - Start new assessment
-- `GET /api/assessment/test/:testType` - Get test data
-- `POST /api/assessment/save` - Save test progress
-- `POST /api/assessment/submit` - Submit completed test
-- `POST /api/assessment/complete` - Process assessment and get recommendations
-- `GET /api/assessment/history` - Get assessment history
-- `GET /api/assessment/:id/responses` - Get assessment responses
-
-### Chat
-
-- `POST /api/chat/start` - Start chat session
-- `POST /api/chat/message` - Send message and get AI response
-- `GET /api/chat/history` - Get chat history
-
-### Profile
-
-- `GET /api/profile` - Get user profile
-- `PATCH /api/profile/update` - Update user profile
-- `DELETE /api/profile/delete` - Delete user account
-
-## Database Schema
-
-- **CustomUser**: User accounts with profile information
-- **Assessment**: Assessment sessions
-- **TestResponse**: Individual test responses
-- **ChatMessage**: Chat messages between user and AI
-
-## Development
-
-### Backend Development
-
-```bash
-cd backend
-npm run dev  # Auto-reload on changes
-```
-
-### Frontend Development
-
-```bash
-cd frontend
-npm run dev  # Vite dev server with HMR
-```
-
-### Database Management
-
-```bash
-cd backend
-npx prisma studio  # Open database GUI
-npx prisma migrate dev  # Create new migration
-```
-
-## Production Deployment
-
-1. Set `NODE_ENV=production` in backend `.env`
-2. Change `JWT_SECRET` to a strong random string
-3. Build frontend: `cd frontend && npm run build`
-4. Use a production database (PostgreSQL recommended)
-5. Set up proper CORS configuration
-6. Use environment variable management for secrets
-
-## Troubleshooting
-
-### "GEMINI_API_KEY is required" error
-
-- Ensure `.env` file exists in backend directory
-- Check that `GEMINI_API_KEY` is set correctly
-
-### CORS errors
-
-- Verify `FRONTEND_URL` in backend `.env` matches frontend URL
-- Check that frontend is making requests to correct backend URL
-
-### Database errors
-
-- Run `npx prisma generate` to regenerate Prisma client
-- Run `npx prisma migrate dev` to apply migrations
-- Check that `DATABASE_URL` in `.env` is correct
-
-### Authentication errors
-
-- Check that JWT tokens are being stored in localStorage
-- Verify `JWT_SECRET` is set in backend `.env`
-- Check browser console for token expiration errors
 
 ## License
 
