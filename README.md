@@ -1,7 +1,30 @@
-# Career Guidance Web App - Combined Final
+# Career Guidance Web App 
 
-A full-stack career guidance application with AI-powered recommendations, user authentication, and persistent data storage.
+A web-based career guidance platform that combines psychometric assessments with AI-powered career recommendations. Students complete RIASEC, values, and preference assessments, after which Google Gemini AI generates personalized career suggestions with clear reasoning. A multilingual RAG chatbot (with built-in guardrails) enables safe, contextual career exploration in six Indian languages. All guidance content is sourced from cleaned and processed NCERT Career Cards. The platform includes dashboards for reviewing assessment history, results, and chat transcripts.
 
+## How to Use
+
+1. Setup as instructed
+2. **Start the app** (backend + frontend)
+3. **Login/Register** in the web interface
+4. **Take an assessment** or **Talk to career guide** from the home page
+6. **Ask career questions** - the RAG chatbot will respond with:
+   - Accurate information from NCERT sourced career database
+   - Context-aware responses based on assessment results
+
+## Demo Video
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1ITmBoVXgdBZyP-qMDiVIFe9UQ6swHkgh/view?usp=drive_link">
+    <img src="thumbnail-image.png" alt="User Journey Video" width="600">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1ITmBoVXgdBZyP-qMDiVIFe9UQ6swHkgh/view?usp=drive_link">
+    ▶ Watch User Journey Video
+  </a>
+</p>
 
 ## Tech Stack Requirement
 
