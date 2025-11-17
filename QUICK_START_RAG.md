@@ -5,8 +5,8 @@
 ```bash
 # 1. Install Python dependencies
 cd backend
-python -m venv venv
-.\venv\Scripts\activate  # Windows
+python -m venv venv # optional use venv 
+.\venv\Scripts\activate  # for Windows
 pip install -r requirements.txt
 
 # 2. Test RAG service
