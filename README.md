@@ -48,9 +48,7 @@ A web-based career guidance platform that combines psychometric assessments with
 ### Prerequisites
 
 - Node.js 18+ and npm
-- Python 3.8+ (for RAG chatbot service)
-- Google Gemini API key ([Get one here](https://makersuite.google.com/app/apikey))
-- HuggingFace API token ([Get one here](https://huggingface.co/settings/tokens))
+- Python 3.8+ 
 
 ### Backend Setup
 
@@ -144,7 +142,7 @@ The frontend will run on `http://localhost:5173`
 ## Project Structure
 
 ```
-combine_Final/
+Final/
 ├── backend/
 │   ├── src/
 │   │   ├── routes/
@@ -177,8 +175,3 @@ combine_Final/
     └── vite.config.ts
 ```
 
-
-
-## License
-
-ISC
