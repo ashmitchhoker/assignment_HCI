@@ -16,7 +16,7 @@ A web-based career guidance platform that combines psychometric assessments with
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1ITmBoVXgdBZyP-qMDiVIFe9UQ6swHkgh/view?usp=drive_link">
-    <img src="thumbnail.png" alt="User Journey Video" width="600">
+    <img src="Thumbnail.png" alt="User Journey Video" width="600">
   </a>
 </p>
 
