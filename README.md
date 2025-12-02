@@ -8,9 +8,9 @@ Each phase of this project has been documented thoroughly.
 
 The first phase involved literature and design space review which can be found in [assignment 1 report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI_report1.pdf)
 
-The second phase involved building a low fi prototype which was built using Figma. Check our [report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI%20Task%202%20report.pdf).
+The second phase involved building a low fi prototype which was built using Figma. We also made a presentation that included personas and storyboarding, system feedback, sitemap etc.  Check our [report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI%20Task%202%20report.pdf) and [presentation](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI%20task%202%20ppt%20Group%201.pptx)
 
-The third phase involved building a low fi prototype which is the majority of the codebase here. Check our [report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI%20Task%203%20Report.pdf) and [presentation](https://github.com/ashmitchhoker/assignment_HCI/blob/master/task3_ppt_HCI.pdf)
+The third phase involved building a low fi prototype which is the majority of the codebase here. We also conducted user testing and mapped user interaction flow and system architecture shown in our presentation. Check our [report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI%20Task%203%20Report.pdf) and [presentation](https://github.com/ashmitchhoker/assignment_HCI/blob/master/task3_ppt_HCI.pdf)
 
 ## How to Use
 
