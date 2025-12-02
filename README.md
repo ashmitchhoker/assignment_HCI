@@ -2,6 +2,16 @@
 
 A web-based career guidance platform that combines psychometric assessments with AI-powered career recommendations. Students complete RIASEC, values, and preference assessments, after which Google Gemini AI generates personalized career suggestions with clear reasoning. A multilingual RAG chatbot (with built-in guardrails) enables safe, contextual career exploration in six Indian languages. All guidance content is sourced from cleaned and processed NCERT Career Cards. The platform includes dashboards for reviewing assessment history, results, and chat transcripts.
 
+## Documentation
+
+Each phase of this project has been documented thoroughly.
+
+The first phase involved literature and design space review which can be found in [assignment 1 report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI_report1.pdf)
+
+The second phase involved building a low fi prototype which was built using Figma. Check our [report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI%20Task%202%20report.pdf).
+
+The third phase involved building a low fi prototype which is the majority of the codebase here. Check our [report](https://github.com/ashmitchhoker/assignment_HCI/blob/master/HCI%20Task%203%20Report.pdf) and [presentation](https://github.com/ashmitchhoker/assignment_HCI/blob/master/task3_ppt_HCI.pdf)
+
 ## How to Use
 
 1. Setup as instructed
